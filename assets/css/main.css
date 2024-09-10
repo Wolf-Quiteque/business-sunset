@@ -1548,7 +1548,7 @@ body.body {
   --ztc-text-text-2: #fff;
   --ztc-text-pera-text-1: #676879;
   --ztc-text-pera-text-2: #D2D1D5;
-  --ztc-bg-main-bg-1: #0E38B1;
+  --ztc-bg-main-bg-1: #E78009;
   --ztc-bg-main-bg-2: #6E18EF;
   --ztc-bg-main-bg-3: #113ADC;
   --ztc-bg-main-bg-4: #A1E934;
@@ -5821,7 +5821,7 @@ a.header__search.header-search-btn p {
   font-size: var(--f-fs-font-fs64);
   font-weight: var(--f-fw-blod);
   line-height: var(--f-fs-font-fs70);
-  color: var(--ztc-text-text-1);
+  color: var(--ztc-text-text-2);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero1 .main-headding h1 {
@@ -5830,13 +5830,7 @@ a.header__search.header-search-btn p {
     line-height: var(--f-fs-font-fs48);
   }
 }
-@media (max-width: 767px) {
-  .hero1 .main-headding h1 {
-    font-size: var(--f-fs-font-fs40);
-    font-weight: var(--f-fw-blod);
-    line-height: var(--f-fs-font-fs48);
-  }
-}
+
 .hero1 .main-headding h1 span.after {
   color: var(--ztc-bg-main-bg-1);
 }
@@ -5844,7 +5838,7 @@ a.header__search.header-search-btn p {
   font-size: var(--f-fs-font-fs16);
   line-height: var(--f-fs-font-fs28);
   font-weight: var(--f-fw-regular);
-  color: var(--ztc-text-pera-text-1);
+  color: var(--ztc-text-text-2);
 }
 .hero1 .buttons {
   display: flex;
@@ -6877,7 +6871,7 @@ a.header__search.header-search-btn p {
 
 .preloader-area {
   background: rgb(25, 26, 31);
-  background: linear-gradient(90deg, rgb(25, 26, 31) 0%, rgb(24, 1, 73) 64%);
+  background: linear-gradient(90deg, rgb(25, 26, 31) 0%, rgb(15, 15, 20) 50%, rgb(5, 5, 10) 100%);
   position: fixed;
   width: 100%;
   height: 100vh;

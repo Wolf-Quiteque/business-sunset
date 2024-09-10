@@ -5831,6 +5831,14 @@ a.header__search.header-search-btn p {
   }
 }
 
+@media (max-width: 767px) {
+  .hero1 .main-headding h1 {
+    font-size: var(--f-fs-font-fs40);
+    font-weight: var(--f-fw-blod);
+    line-height: var(--f-fs-font-fs48);
+  }
+}
+
 .hero1 .main-headding h1 span.after {
   color: var(--ztc-bg-main-bg-1);
 }

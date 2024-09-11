@@ -5820,13 +5820,7 @@ a.header__search.header-search-btn p {
 
 
 
-/* Default background styling for larger screens */
-.hero1 {
-  background-image: url('../img/bg/hero1-bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 /* Adjustments for mobile screens */
 @media (max-width: 767px) {
